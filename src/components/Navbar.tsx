@@ -16,6 +16,11 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-50 bg-prana-cream/90 backdrop-blur-md border-b border-border/50">
+      <img 
+  src="/logo11.png" 
+  alt="Logo" 
+  className="h-10 w-auto" 
+/>
       <div className="prana-container flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="font-serif text-2xl md:text-3xl font-semibold text-prana-chocolate tracking-wider">
           Prana
