@@ -1,4 +1,4 @@
-Import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const HeroSection = () => (
   <section className="relative overflow-hidden py-12 md:py-20 lg:py-24 min-h-screen flex items-center">
