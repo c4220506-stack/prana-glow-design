@@ -5,6 +5,21 @@ import treatmentDoctor from "@/assets/treatment-doctor.jpg";
 
 const HeroSection = () => (
   <section className="relative overflow-hidden py-12 md:py-20 lg:py-24">
+
+    {/* ── VIDEO BACKGROUND ── */}
+    <video
+      autoPlay
+      muted
+      loop
+      playsInline
+      className="absolute inset-0 w-full h-full object-cover -z-10"
+    >
+      <source src="/house1.mp4" type="video/mp4" />
+    </video>
+
+    {/* ── DARK OVERLAY (adjust opacity as needed) ── */}
+    <div className="absolute inset-0 bg-black/40 -z-10" />
+
     <div className="prana-container">
       <div className="text-center mb-8 md:mb-12">
         <motion.h1
