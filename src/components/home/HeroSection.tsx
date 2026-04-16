@@ -1,22 +1,21 @@
-
 import { motion } from "framer-motion";
 
 const HeroSection = () => (
   <section className="relative overflow-hidden py-12 md:py-20 lg:py-24 min-h-screen flex items-center">
     
-    {/* ── VIDEO BACKGROUND ── */}
+    {/* ── VIDEO BACKGROUND WITH BLUR ── */}
     <video
       autoPlay
       muted
       loop
       playsInline
-      className="absolute inset-0 w-full h-full object-cover -z-10"
+      className="absolute inset-0 w-full h-full object-cover -z-10 blur-sm scale-105"
     >
       <source src="/house1.mp4" type="video/mp4" />
     </video>
 
-    {/* ── DARK OVERLAY ── */}
-    <div className="absolute inset-0 bg-black/40 -z-10" />
+    {/* ── DARK OVERLAY WITH BACKDROP BLUR ── */}
+    <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px] -z-10" />
 
     <div className="prana-container w-full">
       <div className="text-center">
